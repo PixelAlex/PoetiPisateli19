@@ -1,0 +1,52 @@
+
+/* Обычный шрифт */
+@font-face {
+	font-family: 'OpenSansRegular'; 
+	src: url(/fonts/OpenSans-Regular.ttf); 
+}
+ 
+/* Жирный шрифт */
+@font-face {
+	font-family: 'OpenSansBold'; 
+	src: url(/fonts/OpenSans-Bold.ttf); 
+}
+ 
+/* Тонкий шрифт*/
+@font-face {
+    font-family: 'OpenSansLight';
+    src: url(/fonts/OpenSans-Light.ttf);
+}
+
+/* Курсивный шрифт */
+@font-face {
+    font-family: 'OpenSansItalic';
+    src: url(/fonts/OpenSans-Italic.ttf);
+}
+
+
+header p {
+    color: #0d6efd;
+}
+
+nav a {
+    font-size: 20px;
+}
+.intro-section {
+    font-size: 25px; 
+    margin: 50px;
+}
+
+.OpenSansBold {
+    font-family: OpenSansBold;
+}
+
+.OpenSansRegular {
+    font-family: OpenSansRegular;
+}
+
+.biography-section {
+    margin-top: 100px;
+}
+a, .a:hover {
+   text-decoration: none !important;
+}
