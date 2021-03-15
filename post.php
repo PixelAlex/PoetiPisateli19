@@ -14,7 +14,7 @@ if($error != '') {
   exit;
 }
 
-$subject = "=?utf-8?B?".base64_encode("Тестовое сообщение")."?=";
+$subject = "=?utf-8?B?".base64_encode("Отзыв о сайте Поэты и Писатели XIX Века")."?=";
 $headers = "From: $email\r\nReply-to: $email\r\nContent-type: text/html; charset = utf-8\r\n";
 mail('alexcovalenko@outlook.com', $subject, $message, $headers);\
 header('Location: /callback.html');

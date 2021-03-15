@@ -50,3 +50,48 @@ nav a {
 a, .a:hover {
    text-decoration: none !important;
 }
+.neo {
+    padding: 15px 25px;
+    border-radius: 100px !important;
+    border: none;
+    background: rgb(13,110,253);
+    background: linear-gradient(90deg, rgba(13,110,253,1) 0%, rgba(54,138,236,1) 100%); 
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    box-shadow: rgb(73 148 232) 0px 13px 46px -8px;
+ }
+
+.lend {
+    display: block;
+}
+
+.tit {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.rad {
+    border-radius: 20px !important;
+}
+
+.neo1 {
+    padding: 12px 22px;
+    border-radius: 100px !important;
+    border: none;
+    background: rgb(13,110,253);
+    background: linear-gradient(90deg, rgba(13,110,253,1) 0%, rgba(54,138,236,1) 100%); 
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    
+ }
+
+.neo2 {
+    border-radius: 100px !important;
+    border: none;
+    background: rgb(13,110,253);
+    background: linear-gradient(90deg, rgba(13,110,253,1) 0%, rgba(54,138,236,1) 100%); 
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
+
+    
+}
+
+header {
+    opacity: 0.975;
+}
