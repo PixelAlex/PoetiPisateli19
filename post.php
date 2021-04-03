@@ -1,4 +1,5 @@
 <?php
+
 $email = $_POST['email'];
 $message = $_POST['message'];
 
@@ -18,4 +19,5 @@ $subject = "=?utf-8?B?".base64_encode("Отзыв о сайте Поэты и П
 $headers = "From: $email\r\nReply-to: $email\r\nContent-type: text/html; charset = utf-8\r\n";
 mail('alexcovalenko@outlook.com', $subject, $message, $headers);\
 header('Location: /callback.html');
- ?>
+
+?>
