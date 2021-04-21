@@ -1,29 +1,4 @@
 
-/* Обычный шрифт */
-@font-face {
-	font-family: 'OpenSansRegular';
-	src: url(/fonts/OpenSans-Regular.ttf);
-}
-
-/* Жирный шрифт */
-@font-face {
-	font-family: 'OpenSansBold';
-	src: url(/fonts/OpenSans-Bold.ttf);
-}
-
-/* Тонкий шрифт*/
-@font-face {
-    font-family: 'OpenSansLight';
-    src: url(/fonts/OpenSans-Light.ttf);
-}
-
-/* Курсивный шрифт */
-@font-face {
-    font-family: 'OpenSansItalic';
-    src: url(/fonts/OpenSans-Italic.ttf);
-}
-
-
 header p {
     color: #0d6efd;
 }
@@ -94,4 +69,18 @@ a, .a:hover {
 
 header {
     opacity: 0.975;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
 }

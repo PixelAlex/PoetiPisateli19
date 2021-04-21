@@ -2,6 +2,6 @@ User-agent: *
 Disallow: /err404.html
 
 Sitemap: https://poetipisateli19.site/sitemap.xml
-Host: https://poetipisateli19.site/
+
 
 
